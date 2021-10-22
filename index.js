@@ -18,7 +18,6 @@ async function addCatToDom() {
 
     link.href = catPicObject.url
     link.textContent = "Permalink"
-
     image.src = catPicObject.url;
 
     catPicCard.appendChild(image)
@@ -26,9 +25,6 @@ async function addCatToDom() {
     catPicCard.appendChild(description)
 
     entryPoint.appendChild(catPicCard)
-
-
-
 }
 
 var catButton = document.querySelector("#add-cat-button")

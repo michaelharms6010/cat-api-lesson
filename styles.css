@@ -7,6 +7,25 @@ h1 {
     max-height: 300px;
 }
 
+@media only screen and (max-width: 800px) {
+    /* tablet styles */
+    
+    .cat-card {
+        background: papayawhip;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    /* mobile styles */
+    .cat-card {
+        background: none;
+    }
+    .cat-card img {
+        max-width: 100px;
+        max-height: 200px;
+    }
+}
+
 .cat-container {
     display:flex;
     flex-wrap: wrap;
